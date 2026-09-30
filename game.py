@@ -55,7 +55,9 @@ def init():
             break
 
 def turn_handler(plr):
+    # The super intelligent AI that you are fighting
     num = random.randint(0, 2)
+    # I know, it's so complex
     comp = moves[num]
    
     print(f"Computer: {comp}")
