@@ -2,7 +2,7 @@
 
 <!-- ✏️ Replace everything in this file with YOUR game's info. Keep the headings. -->
 
-**Play it:** https://Unlimited7710.github.io/rock-paper-scissors/
+**Play it:** https://unlimited7710.github.io/rock-paper-scissors/
 
 **Made by:** Xavier Celestin
 
