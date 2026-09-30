@@ -80,9 +80,9 @@ def ask(prompt, options):
 
 def ask_num(prompt):
     while True:
-        choice = int(input(prompt))
-        if type(choice) == int:
-            return choice
-        print("Pick an integer")
+        try:
+            return int(input(prompt))
+        except:
+            print("Pick an integer")
 
 init()
