@@ -63,14 +63,13 @@ def turn_handler(plr):
 
     if plr == "r" and comp == "scissors":
         return "Win"
-    elif plr == "p" and comp == "rock":
+    if plr == "p" and comp == "rock":
         return "Win"
-    elif plr == "s" and comp == "paper":
+    if plr == "s" and comp == "paper":
         return "Win"
-    elif plr == comp[0]:
+    if plr == comp[0]:
         return "Tie"
-    else:
-        return "Lose"
+    return "Lose"
 
 def ask(prompt, options):
     while True:
@@ -84,6 +83,6 @@ def ask_num(prompt):
         choice = int(input(prompt))
         if type(choice) == int:
             return choice
-        print(f"Pick a num {', '.join(options)}")
+        print("Pick an integer")
 
 init()
